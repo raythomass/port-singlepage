@@ -7,7 +7,7 @@
 
 :root {
   --salmon: #FF8066;
-  --cream: #F4F3ED;
+  --cream: #FFEFD6;
   --silver: #C0B7B1;
   --brown: #7A7265;
   --black: #201D1E;
@@ -25,4 +25,26 @@ h1 {
 p {
   font-family: 'DM Sans', sans-serif;
   color: var(--cream);
+}
+
+/* ---------- HEADER ---------- */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+  margin-top: 15%;
+}
+
+.header span {
+  color: var(--salmon);
+}
+
+.header p {
+  margin: 0px;
+}
+
+.header h1 {
+  font-size: 95px;
+  margin: 3px;
 }
