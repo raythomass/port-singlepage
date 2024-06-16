@@ -23,18 +23,31 @@
 h1 {
   font-family: 'DM Sans', sans-serif;
   color: var(--cream);
-  font-size: 44px;
+  font-size: 52px;
 }
 
 h2 {
   font-family: 'DM Sans', sans-serif;
-  font-size: 24px;
+  font-size: 42px;
   color: var(--cream);
 }
 
 h3 {
   font-family: 'DM Sans', sans-serif;
-  font-size: 20px;
+  font-size: 32px;
+  color: var(--cream);
+}
+
+h4 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 22px;
+  color: var(--cream);
+}
+
+h5 {
+  font-family: "EB Garamond", serif;
+  font-weight: 600;
+  font-size: 22px;
   color: var(--cream);
 }
 
@@ -44,18 +57,34 @@ p {
   color: var(--cream);
 }
 
+ul {
+  font-family: "EB Garamond", serif;
+  color: var(--cream);
+  font-size: 16px;
+}
+
+li {
+  font-family: "EB Garamond", serif;
+  color: var(--cream);
+  font-size: 16px;
+}
+
+
+
+
 /* ---------- HEADER ---------- */
 
 .header {
   display: flex;
   flex-direction: column;
   margin-left: 15%;
+  margin-right: 15%;
   margin-top: 15%;
 }
 
 .header span {
   color: var(--salmon);
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .header h1 {
@@ -63,6 +92,44 @@ p {
   margin: 0px;
 }
 
-.header h2 {
+.header h3 {
   font-weight: 300;
+}
+
+
+
+
+/* ---------- ABOUT ---------- */
+
+.about {
+  margin-top: 20%;
+  margin-bottom: 20%;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.about-summary {
+  max-width: 75%;
+}
+
+.education-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.education-card-content {
+  height: 150px;
+  width: 44%;
+  border: solid red 1px;
+  border-radius: 15px;
+  padding: 2%;
+  justify-content: center;
+}
+
+.education-school {
+  margin-bottom: 4%;
+}
+
+.education-list {
+  margin-bottom: 1%;
 }

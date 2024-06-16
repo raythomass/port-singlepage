@@ -1,11 +1,11 @@
 function Header() {
     return(
         <>
-        <div className="header">
-            <h2> Hello! My name is</h2>
+        <section className="header">
+            <h3> Hello! My name is</h3>
             <h1>Ray Thomas</h1>
-            <h2> I'm a <span>Web Developer</span> & <span>Graphic Designer</span> from Phoenix, AZ</h2>
-        </div>
+            <h3> I'm a <span>Web Developer</span> & <span>Graphic Designer</span> from Phoenix, AZ</h3>
+        </section>
         </>
         
     )
