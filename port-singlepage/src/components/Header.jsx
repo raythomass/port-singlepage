@@ -2,13 +2,13 @@ function Header() {
     return(
         <>
         <div className="header">
-            <p> Hello! My name is</p>
+            <h2> Hello! My name is</h2>
             <h1>Ray Thomas</h1>
-            <p> I'm a <span>Web Developer</span> & <span>Graphic Designer</span> from Phoenix, AZ</p>
+            <h2> I'm a <span>Web Developer</span> & <span>Graphic Designer</span> from Phoenix, AZ</h2>
         </div>
         </>
         
     )
 }
 
-export default Header
+export default Header;
