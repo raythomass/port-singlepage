@@ -12,7 +12,7 @@ function About() {
             </p>
 
             <div className="education">
-                <h3>Education</h3>
+                <h3 className="education-heading">Education</h3>
                 <div className="education-cards">
                     <div className="education-card-content">
                         <h4 className="education-title">Certificate of Completion, Full-Stack Web Development</h4>
@@ -24,7 +24,7 @@ function About() {
                         </ul>
                     </div>
                     <div className="education-card-content">
-                        <h4 className="education-title">Bachelor's of Fine Art in Advertising and
+                        <h4 className="education-title">Bachelor's of Fine Art, Advertising and
                         Graphic Design</h4>
                         <h5 className="education-school">Grand Canyon University</h5>
                         <ul>

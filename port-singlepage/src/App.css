@@ -46,7 +46,7 @@ h4 {
 
 h5 {
   font-family: "EB Garamond", serif;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 22px;
   color: var(--cream);
 }
@@ -60,13 +60,13 @@ p {
 ul {
   font-family: "EB Garamond", serif;
   color: var(--cream);
-  font-size: 16px;
+  font-size: 18px;
 }
 
 li {
   font-family: "EB Garamond", serif;
   color: var(--cream);
-  font-size: 16px;
+  font-size: 18px;
 }
 
 
@@ -77,9 +77,21 @@ li {
 .header {
   display: flex;
   flex-direction: column;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 20%;
+  margin-right: 20%;
   margin-top: 15%;
+}
+
+.header a {
+  color: var(--salmon);
+  text-decoration: none;
+  transition: font-weight 0.2s ease-in-out;
+  transition: font-size 0.2s ease-in-out;
+}
+
+.header a:hover {
+  font-size: 40px;
+  font-weight: 600 ;
 }
 
 .header span {
@@ -104,26 +116,37 @@ li {
 .about {
   margin-top: 20%;
   margin-bottom: 20%;
-  margin-left: 7%;
-  margin-right: 7%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .about-summary {
+  margin-top: 1%;
   max-width: 75%;
 }
 
+.education-heading {
+  margin-top: 4%;
+}
+
 .education-cards {
+  margin-top: 1%;
   display: flex;
   justify-content: space-between;
 }
 
 .education-card-content {
-  height: 150px;
+  height: 100%;
   width: 44%;
-  border: solid red 1px;
+  border: solid var(--cream) 1px;
+  transition: box-shadow 0.2s ease-in-out;
   border-radius: 15px;
   padding: 2%;
   justify-content: center;
+}
+
+.education-card-content:hover {
+  box-shadow: 7px 7px var(--cream);
 }
 
 .education-school {
