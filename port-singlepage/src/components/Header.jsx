@@ -11,6 +11,4 @@ function Header() {
     )
 }
 
-{/* <span >Graphic Designer</span> */}
-
 export default Header;
