@@ -116,8 +116,8 @@ li {
 .about {
   margin-top: 20%;
   margin-bottom: 20%;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .about-summary {
@@ -155,4 +155,27 @@ li {
 
 .education-list {
   margin-bottom: 1%;
+}
+
+
+
+
+/* ---------- PROJECTS ---------- */
+
+.projects {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20%;
+}
+
+.project-row {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-ind {
+  width: 30%;
+  border: solid red 1px;
 }
