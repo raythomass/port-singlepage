@@ -173,9 +173,48 @@ li {
   margin-bottom: 4%;
   display: flex;
   justify-content: space-between;
+  gap: 25px;
 }
 
 .project-ind {
+  padding: 2%;
   width: 30%;
-  border: solid red 1px;
+  border: solid var(--cream) 0.5px;
+  border-radius: 10px;
+}
+
+.project-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
+  /* border: solid red 1px; */
+}
+
+.project-thumbnail {
+  margin-bottom: 6%;
+}
+
+.project-image {
+  max-width: 100%;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 15px;
+}
+
+.project-link {
+  font-family: 'DM Sans', sans-serif;
+  color: var(--cream) ;
+  border: 2px solid var(--cream);
+  transition: box-shadow 0.2s ease-in-out;
+  padding: 7px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  box-shadow: 5px 5px var(--golden);
 }
