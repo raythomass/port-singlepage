@@ -138,16 +138,16 @@ li {
 .education-card-content {
   height: 100%;
   width: 44%;
-  border: solid var(--cream) 1px;
-  transition: box-shadow 0.2s ease-in-out;
-  border-radius: 15px;
+  border-left: solid var(--cream) 1px;
+  /* transition: box-shadow 0.2s ease-in-out;
+  border-radius: 15px; */
   padding: 2%;
   justify-content: center;
 }
 
-.education-card-content:hover {
+/* .education-card-content:hover {
   box-shadow: 7px 7px var(--cream);
-}
+} */
 
 .education-school {
   margin-bottom: 4%;
