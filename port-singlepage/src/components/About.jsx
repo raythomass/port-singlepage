@@ -28,7 +28,7 @@ function About() {
                         Graphic Design</h4>
                         <h5 className="education-school">Grand Canyon University</h5>
                         <ul>
-                            <li className="education-list">Designed and currated advertising packages using multiple design mediums</li>
+                            <li className="education-list">Crafted and currated advertising packages using multiple design mediums</li>
                             <li className="education-list">Designed web applications and websites using industry leading design software</li>
                         </ul>
                     </div>
