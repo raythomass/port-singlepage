@@ -85,14 +85,14 @@ li {
 .header a {
   color: var(--salmon);
   text-decoration: none;
-  transition: font-weight 0.2s ease-in-out;
-  transition: font-size 0.2s ease-in-out;
+  /* transition: font-weight 0.2s ease-in-out;
+  transition: font-size 0.2s ease-in-out; */
 }
 
-.header a:hover {
+/* .header a:hover {
   font-size: 40px;
   font-weight: 600 ;
-}
+} */
 
 .header span {
   color: var(--salmon);
