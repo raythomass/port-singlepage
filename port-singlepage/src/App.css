@@ -28,8 +28,9 @@ h1 {
 }
 
 h2 {
-  font-family: 'DM Sans', sans-serif;
-  font-size: 42px;
+  /* font-family: 'DM Sans', sans-serif; */
+  font-family: 'Reenie Beanie';
+  font-size: 70px;
   color: var(--cream);
 }
 
@@ -101,6 +102,7 @@ li {
 }
 
 .header h1 {
+  font-family: 'Reenie Beanie';
   font-size: 100px;
   margin: 0px;
 }
@@ -124,6 +126,10 @@ li {
 .about-summary {
   margin-top: 1%;
   max-width: 75%;
+}
+
+.education {
+  margin-top: 15vh;
 }
 
 .education-heading {

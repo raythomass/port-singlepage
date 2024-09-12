@@ -1,7 +1,7 @@
 function Projects () {
     return (
         <section className="projects">
-            <h1>My Projects</h1>
+            <h2>My Projects</h2>
             <section className="project-row">
                 <section className="project-ind">
                     <div className="project-title">
