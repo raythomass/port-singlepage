@@ -2,7 +2,7 @@ function About() {
     return(
         <>
         <section className="about">
-            <h1>About Me</h1>
+            <h2>About Me</h2>
             <p className="about-summary">
             I graduated from Arizona State University in February 2024 with a certificate of completion from the Full-Stack Web Development Bootcamp. 
             I also graduated from Grand Canyon University in 2021 with a Bachelor's Degree in Advertising and Graphic Design. I am excited and motivated 
@@ -12,7 +12,7 @@ function About() {
             </p>
 
             <div className="education">
-                <h3 className="education-heading">Education</h3>
+                <h2 className="education-heading">Education</h2>
                 <div className="education-cards">
                     <div className="education-card-content">
                         <h4 className="education-title">Certificate of Completion, Full-Stack Web Development</h4>
