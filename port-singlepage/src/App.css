@@ -9,21 +9,21 @@
   --salmon: #FF8066;
   --babyblue: #52A3EA;
   --golden: #EBB852;
-  --cream: #FFEFD6;
+  --cream: #fffaf1;
   --silver: #C0B7B1;
   --brown: #7A7265;
   --black: #201D1E;
 }
 
 * {
-  background-color: var(--black);
+  background-color: var(--cream);
   margin: 0px;
 }
 
 h1 {
   font-family: 'DM Sans', sans-serif;
   /* font-family: 'Reenie Beanie'; */
-  color: var(--cream);
+  color: var(--black);
   font-size: 52px;
 }
 
@@ -31,43 +31,43 @@ h2 {
   /* font-family: 'DM Sans', sans-serif; */
   font-family: 'Reenie Beanie';
   font-size: 70px;
-  color: var(--cream);
+  color: var(--black);
 }
 
 h3 {
   font-family: 'DM Sans', sans-serif;
   font-size: 32px;
-  color: var(--cream);
+  color: var(--black);
 }
 
 h4 {
   font-family: 'DM Sans', sans-serif;
   font-size: 22px;
-  color: var(--cream);
+  color: var(--black);
 }
 
 h5 {
   font-family: "EB Garamond", serif;
   font-weight: 400;
   font-size: 22px;
-  color: var(--cream);
+  color: var(--black);
 }
 
 p {
   font-family: "EB Garamond", serif;
   font-size: 20px;
-  color: var(--cream);
+  color: var(--black);
 }
 
 ul {
   font-family: "EB Garamond", serif;
-  color: var(--cream);
+  color: var(--black);
   font-size: 18px;
 }
 
 li {
   font-family: "EB Garamond", serif;
-  color: var(--cream);
+  color: var(--black);
   font-size: 18px;
 }
 
@@ -85,7 +85,7 @@ li {
 }
 
 .header a {
-  color: var(--salmon);
+  color: var(--babyblue);
   text-decoration: none;
   /* transition: font-weight 0.2s ease-in-out;
   transition: font-size 0.2s ease-in-out; */
@@ -97,12 +97,12 @@ li {
 } */
 
 .header span {
-  color: var(--salmon);
+  color: var(--babyblue);
   font-weight: 300;
 }
 
 .header h1 {
-  font-family: 'Reenie Beanie';
+  /* font-family: 'Reenie Beanie'; */
   font-size: 100px;
   margin: 0px;
 }
@@ -145,7 +145,7 @@ li {
 .education-card-content {
   height: 100%;
   width: 44%;
-  border-left: solid var(--cream) 1px;
+  border-left: solid var(--black) 1px;
   /* transition: box-shadow 0.2s ease-in-out;
   border-radius: 15px; */
   padding: 2%;
@@ -186,7 +186,7 @@ li {
 .project-ind {
   padding: 2%;
   width: 30%;
-  border: solid var(--cream) 0.5px;
+  border: solid var(--black) 0.5px;
   border-radius: 10px;
 }
 
@@ -214,8 +214,8 @@ li {
 
 .project-link {
   font-family: 'DM Sans', sans-serif;
-  color: var(--cream) ;
-  border: 2px solid var(--cream);
+  color: var(--black) ;
+  border: 2px solid var(--black);
   transition: box-shadow 0.2s ease-in-out;
   padding: 7px;
   border-radius: 10px;
@@ -223,5 +223,5 @@ li {
 }
 
 .project-link:hover {
-  box-shadow: 5px 5px var(--golden);
+  box-shadow: 5px 5px var(--brown);
 }
