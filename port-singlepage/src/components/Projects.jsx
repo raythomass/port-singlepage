@@ -1,7 +1,9 @@
+import Card from 'react-bootstrap/Card';
+
 function Projects () {
     return (
         <section className="projects">
-            <h2>My Projects</h2>
+            <h2>Projects</h2>
             <section className="project-row">
                 <section className="project-ind">
                     <div className="project-title">
