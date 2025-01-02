@@ -1,10 +1,44 @@
-import Card from 'react-bootstrap/Card';
+
 
 function Projects () {
     return (
         <section className="projects">
             <h2>Projects</h2>
-            <section className="project-row">
+            <div className="flex justify-between">
+                <div className="test-card-pro">
+                    <div className="test-img-pro">
+                        <img src="/streaming-app.png"></img>
+                    </div>
+                    <h3 className="mt-2 p-2">Streaming App</h3>
+                    <p className="p-2">
+                    This front-end project allows users to discover trending movies and tv shows, as well as
+                        search for their favorites. Utilizing the Movie Database API, this projects allows users to
+                        find almost any type of film mdeia they can think of.
+                    </p>
+                </div>
+                
+                <div className="test-card-pro">
+                    <div className="test-img-pro">
+                        <img src="/rays_pizzeria.jpg"></img>
+                        <h4 className="mt-2 p-2">Ray's Pizzeria</h4>
+                    </div>
+                </div>
+
+                <div className="test-card-pro">
+                    <div className="test-img-pro">
+                        <img src="/football-database.jpg"></img>
+                        <h4 className="mt-2 p-2">Football Database</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    )
+}
+
+export default Projects;
+
+
+{/* <section className="project-row">
                 <section className="project-ind">
                     <div className="project-title">
                         <h3> Streaming App </h3>
@@ -105,9 +139,4 @@ function Projects () {
                         <a className="project-link" href="#">Deployed App</a>
                     </div>
                 </section>
-            </section> 
-        </section>
-    )
-}
-
-export default Projects;
+            </section>  */}
